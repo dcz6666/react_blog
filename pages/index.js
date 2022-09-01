@@ -3,8 +3,10 @@ import { Row, Col, Menu, List } from 'antd'
 import React, { useState } from 'react'
 // import styles from '../styles/Home.module.css'
 import Header from '../components/Header/Header.js'
-
 import styles from '../styles/pages/Index.module.css'
+
+import { CalendarOutlined,FolderOutlined,FireOutlined } from '@ant-design/icons';
+
 export default function Home() {
   const [mylist, setMylist] = useState(
     [
@@ -31,9 +33,9 @@ export default function Home() {
               <List.Item>
                 <div className={styles.listTitle}>{item.title}</div>
                 <div className={styles.listIcon}>
-                  <span> 2019-06-28</span>
-                  <span> 视频教程</span>
-                  <span> 5498人</span>
+                  <span><CalendarOutlined /> 2019-06-28</span>
+                  <span><FolderOutlined /> 视频教程</span>
+                  <span><FireOutlined /> 5498人</span>
                 </div>
                 <div className={styles.listContext}>{item.context}</div>
               </List.Item>
