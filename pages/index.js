@@ -9,7 +9,6 @@ export default function Home() {
         <title>home</title>
       </Head>
       <Header></Header>
-      <Button>测试</Button>
     </div>
   )
 }
