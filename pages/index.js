@@ -3,6 +3,7 @@ import { Row, Col, Menu, List } from 'antd'
 import React, { useState } from 'react'
 // import styles from '../styles/Home.module.css'
 import Header from '../components/Header/Header.js'
+import Author from '../components/Author/Author.js'
 import styles from '../styles/pages/Index.module.css'
 
 import { CalendarOutlined,FolderOutlined,FireOutlined } from '@ant-design/icons';
@@ -43,8 +44,8 @@ export default function Home() {
           />
         </Col>
 
-        <Col className="comm-right" xs={0} sm={0} md={7} lg={5} xl={4}>
-          右侧
+        <Col className="comm-box" xs={0} sm={0} md={7} lg={5} xl={4}>
+          <Author />
         </Col>
       </Row>
 

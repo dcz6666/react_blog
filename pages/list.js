@@ -1,7 +1,9 @@
 import Head from 'next/head'
+import React,{useState} from 'react'
 import { Row, Col, Menu } from 'antd'
 import styles from '../styles/Home.module.css'
 import Header from '../components/Header/Header.js'
+import { CalendarOutlined } from '@ant-design/icons';
 export default function List() {
   return (
     <div className={styles.container}>
@@ -15,7 +17,7 @@ export default function List() {
           左侧
         </Col>
 
-        <Col className="comm-right" xs={0} sm={0} md={7} lg={5} xl={4}>
+        <Col className="comm-box" xs={0} sm={0} md={7} lg={5} xl={4}>
           右侧
         </Col>
       </Row>
