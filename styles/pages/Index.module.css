@@ -15,3 +15,8 @@
     display: inline-block;
     padding: 0 10px;
 }
+.breadDiv{
+    padding: .5rem;
+    border-bottom:1px solid #eee;
+    background-color: #e1f0ff;
+}
