@@ -1,0 +1,26 @@
+2022-09-05 07:05:29,129 ERROR 29984 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 29984
+hostname: 大成子
+
+2022-09-05 07:56:29,032 ERROR 2824 nodejs.ServerNoResponseError: server 127.0.0.1:65259 no response in 40010ms, maybe the socket is end on the other side. (address: 127.0.0.1:65259)
+    at Timeout._onTimeout (E:\前端\react_blog\service\node_modules\_tcp-base@3.1.0@tcp-base\lib\base.js:427:21)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ServerNoResponseError"
+pid: 2824
+hostname: 大成子
+
+2022-09-05 08:09:06,368 ERROR 19408 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 19408
+hostname: 大成子
+

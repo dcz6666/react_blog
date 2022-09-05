@@ -1,0 +1,31 @@
+.breadDiv{
+    padding: .5rem;
+    border-bottom:1px solid #eee;
+    background-color: #e1f0ff;
+}
+.detailedTitle{
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 1rem;
+}
+.listIcon{
+    padding:.5rem 0;
+    color:#AAA;
+    text-align: center;
+}
+.listIcon span{
+    display: inline-block;
+    padding: 0 10px;
+}
+.detailedContent{
+    padding: 1.3rem;
+    font-size: 1rem;
+}
+
+
+
+.navTitle{
+    text-align: center;
+    color: #888;
+    border-bottom: 1px solid rgb(30, 144, 255);
+}
