@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import { Row, Col, Breadcrumb,Affix } from 'antd'
+import axios from 'axios'
 import ReactMarkdown from 'react-markdown'
 import MarkNav from 'markdown-navbar';
 import 'markdown-navbar/dist/navbar.css';
@@ -11,7 +12,7 @@ import Author from '../components/Author/Author.js'
 import Advert from '../components/Advert/Advert.js'
 import Footer from '../components/Footer/Footer.js'
 
-import { CalendarOutlined, FolderOutlined, FireOutlined } from '@ant-design/icons';
+import { CalendarOutlined, FolderOutlined, FireOutlined, ConsoleSqlOutlined } from '@ant-design/icons';
 
 export default function Detailed() {
     let markdown='# P01:课程介绍和环境搭建\n' +
@@ -102,3 +103,18 @@ export default function Detailed() {
         </div>
     )
 }
+
+Detailed.getInitialProps = async(content)=>{
+    console.log(content.query.id)
+    let { id }=content.query;
+    const promise = new Promise((resolve)=>{
+      axios('http://127.0.0.1:7001/default/getArticleById/'+id).then(
+        (res)=>{
+          console.log('远程获取数据结果:',res.data.data)
+          resolve(res.data)
+        }
+      )
+    })
+    return await promise
+  }
+

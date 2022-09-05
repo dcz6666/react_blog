@@ -16,19 +16,9 @@
       "connectionLimit": "E:\\前端\\react_blog\\service\\node_modules\\_egg-mysql@3.1.1@egg-mysql\\config\\config.default.js"
     }
   },
-  "session": {
-    "maxAge": "E:\\前端\\react_blog\\service\\node_modules\\_egg-session@3.3.0@egg-session\\config\\config.default.js",
-    "key": "E:\\前端\\react_blog\\service\\node_modules\\_egg-session@3.3.0@egg-session\\config\\config.default.js",
-    "httpOnly": "E:\\前端\\react_blog\\service\\node_modules\\_egg-session@3.3.0@egg-session\\config\\config.default.js",
-    "encrypt": "E:\\前端\\react_blog\\service\\node_modules\\_egg-session@3.3.0@egg-session\\config\\config.default.js",
-    "logValue": "E:\\前端\\react_blog\\service\\node_modules\\_egg-session@3.3.0@egg-session\\config\\config.default.js"
-  },
   "security": {
-    "domainWhiteList": "E:\\前端\\react_blog\\service\\node_modules\\_egg-security@2.11.0@egg-security\\config\\config.default.js",
-    "protocolWhiteList": "E:\\前端\\react_blog\\service\\node_modules\\_egg-security@2.11.0@egg-security\\config\\config.default.js",
-    "defaultMiddleware": "E:\\前端\\react_blog\\service\\node_modules\\_egg-security@2.11.0@egg-security\\config\\config.default.js",
     "csrf": {
-      "enable": "E:\\前端\\react_blog\\service\\node_modules\\_egg-security@2.11.0@egg-security\\config\\config.default.js",
+      "enable": "E:\\前端\\react_blog\\service\\config\\config.default.js",
       "type": "E:\\前端\\react_blog\\service\\node_modules\\_egg-security@2.11.0@egg-security\\config\\config.default.js",
       "ignoreJSON": "E:\\前端\\react_blog\\service\\node_modules\\_egg-security@2.11.0@egg-security\\config\\config.default.js",
       "useSession": "E:\\前端\\react_blog\\service\\node_modules\\_egg-security@2.11.0@egg-security\\config\\config.default.js",
@@ -40,6 +30,9 @@
       "supportedRequests": "E:\\前端\\react_blog\\service\\node_modules\\_egg-security@2.11.0@egg-security\\config\\config.default.js",
       "refererWhiteList": "E:\\前端\\react_blog\\service\\node_modules\\_egg-security@2.11.0@egg-security\\config\\config.default.js"
     },
+    "domainWhiteList": "E:\\前端\\react_blog\\service\\config\\config.default.js",
+    "protocolWhiteList": "E:\\前端\\react_blog\\service\\node_modules\\_egg-security@2.11.0@egg-security\\config\\config.default.js",
+    "defaultMiddleware": "E:\\前端\\react_blog\\service\\node_modules\\_egg-security@2.11.0@egg-security\\config\\config.default.js",
     "xframe": {
       "enable": "E:\\前端\\react_blog\\service\\node_modules\\_egg-security@2.11.0@egg-security\\config\\config.default.js",
       "value": "E:\\前端\\react_blog\\service\\node_modules\\_egg-security@2.11.0@egg-security\\config\\config.default.js"
@@ -78,6 +71,17 @@
       "ipExceptionList": "E:\\前端\\react_blog\\service\\node_modules\\_egg-security@2.11.0@egg-security\\config\\config.default.js",
       "checkAddress": "E:\\前端\\react_blog\\service\\node_modules\\_egg-security@2.11.0@egg-security\\config\\config.default.js"
     }
+  },
+  "cors": {
+    "origin": "E:\\前端\\react_blog\\service\\config\\config.default.js",
+    "allowMethods": "E:\\前端\\react_blog\\service\\config\\config.default.js"
+  },
+  "session": {
+    "maxAge": "E:\\前端\\react_blog\\service\\node_modules\\_egg-session@3.3.0@egg-session\\config\\config.default.js",
+    "key": "E:\\前端\\react_blog\\service\\node_modules\\_egg-session@3.3.0@egg-session\\config\\config.default.js",
+    "httpOnly": "E:\\前端\\react_blog\\service\\node_modules\\_egg-session@3.3.0@egg-session\\config\\config.default.js",
+    "encrypt": "E:\\前端\\react_blog\\service\\node_modules\\_egg-session@3.3.0@egg-session\\config\\config.default.js",
+    "logValue": "E:\\前端\\react_blog\\service\\node_modules\\_egg-session@3.3.0@egg-session\\config\\config.default.js"
   },
   "helper": {
     "shtml": "E:\\前端\\react_blog\\service\\node_modules\\_egg-security@2.11.0@egg-security\\config\\config.default.js"
@@ -185,6 +189,7 @@
     },
     "dependencies": {
       "egg": "E:\\前端\\react_blog\\service\\node_modules\\_egg@2.36.0@egg\\config\\config.default.js",
+      "egg-cors": "E:\\前端\\react_blog\\service\\node_modules\\_egg@2.36.0@egg\\config\\config.default.js",
       "egg-mysql": "E:\\前端\\react_blog\\service\\node_modules\\_egg@2.36.0@egg\\config\\config.default.js",
       "egg-scripts": "E:\\前端\\react_blog\\service\\node_modules\\_egg@2.36.0@egg\\config\\config.default.js"
     },
